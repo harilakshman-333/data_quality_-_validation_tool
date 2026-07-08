@@ -2,7 +2,7 @@
 
 The quality and synthesis layer for the open robot-learning data ecosystem.
 
-ruff for robot data — lint, fix, and generate clean LeRobotDataset datasets.
+ruff for robot data : lint, fix, and generate clean LeRobotDataset datasets.
 
 
 ## Status
