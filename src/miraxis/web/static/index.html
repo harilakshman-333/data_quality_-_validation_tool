@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>miraxis dashboard</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h1 id="title">miraxis dashboard</h1>
+<p class="meta" id="meta"></p>
+<p id="loading">Loading report&hellip;</p>
+<p id="error" class="hidden"></p>
+
+<div id="report" class="hidden">
+  <div class="summary">
+    <div>
+      <div class="score" id="score">&mdash;</div>
+      <div class="score-label" id="score-label">Trust score</div>
+      <div class="gauge-track"><div class="gauge-fill" id="gauge-fill"></div></div>
+    </div>
+    <div>
+      <div class="grade" id="grade">&mdash;</div>
+    </div>
+  </div>
+
+  <h2>Severity summary</h2>
+  <table>
+    <tr><th>Severity</th><th>Count</th></tr>
+    <tbody id="counts-body"></tbody>
+  </table>
+
+  <h2>Check results</h2>
+  <table>
+    <tr><th>Severity</th><th>Check ID</th><th>Message</th></tr>
+    <tbody id="results-body"></tbody>
+  </table>
+</div>
+
+<script src="/static/app.js" defer></script>
+</body>
+</html>
