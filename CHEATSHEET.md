@@ -1,4 +1,4 @@
-# miraxis Cheat Sheet
+# Miraxis Cheat Sheet
 
 ## What This Repo Is
 
